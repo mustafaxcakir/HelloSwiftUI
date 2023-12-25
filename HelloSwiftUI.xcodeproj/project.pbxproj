@@ -11,6 +11,8 @@
 		F44216CF2B3A01AE00CC4256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44216CE2B3A01AE00CC4256 /* ContentView.swift */; };
 		F44216D12B3A01B000CC4256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44216D02B3A01B000CC4256 /* Assets.xcassets */; };
 		F44216D42B3A01B000CC4256 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44216D32B3A01B000CC4256 /* Preview Assets.xcassets */; };
+		F44216DB2B3A01E900CC4256 /* userList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44216DA2B3A01E900CC4256 /* userList.swift */; };
+		F44216DD2B3A067400CC4256 /* viewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44216DC2B3A067400CC4256 /* viewList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F44216CE2B3A01AE00CC4256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F44216D02B3A01B000CC4256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F44216D32B3A01B000CC4256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F44216DA2B3A01E900CC4256 /* userList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userList.swift; sourceTree = "<group>"; };
+		F44216DC2B3A067400CC4256 /* viewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		F44216CB2B3A01AE00CC4256 /* HelloSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F44216D22B3A01B000CC4256 /* Preview Content */,
 				F44216CC2B3A01AE00CC4256 /* HelloSwiftUIApp.swift */,
 				F44216CE2B3A01AE00CC4256 /* ContentView.swift */,
+				F44216DA2B3A01E900CC4256 /* userList.swift */,
+				F44216DC2B3A067400CC4256 /* viewList.swift */,
 				F44216D02B3A01B000CC4256 /* Assets.xcassets */,
-				F44216D22B3A01B000CC4256 /* Preview Content */,
 			);
 			path = HelloSwiftUI;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44216DD2B3A067400CC4256 /* viewList.swift in Sources */,
+				F44216DB2B3A01E900CC4256 /* userList.swift in Sources */,
 				F44216CF2B3A01AE00CC4256 /* ContentView.swift in Sources */,
 				F44216CD2B3A01AE00CC4256 /* HelloSwiftUIApp.swift in Sources */,
 			);

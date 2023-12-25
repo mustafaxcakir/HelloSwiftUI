@@ -8,16 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var yOffset: CGFloat = 0.0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+        NavigationView {
+                   VStack {
+                       NavigationLink(
+                           destination: viewList(),
+                           label: {
+                               Text("User List")
+                                   .font(.system(size: 20))
+                                   .background(Color.blue)
+                                   .foregroundColor(.white)
+                                   .cornerRadius(7)
+                           }
+                       )
+                       .padding()
+                   }
+                   .navigationTitle("Main Menu")
+               }
+           }
+       }
+
 
 #Preview {
     ContentView()
