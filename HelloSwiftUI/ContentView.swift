@@ -9,8 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var yOffset: CGFloat = 0.0
-    
     var body: some View {
         NavigationView {
                    VStack {

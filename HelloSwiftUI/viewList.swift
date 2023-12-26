@@ -4,6 +4,7 @@
 //
 //  Created by MustafaCan on 25.12.2023.
 //
+//
 
 import SwiftUI
 
@@ -23,6 +24,7 @@ struct viewList: View {
         
     }
 }
+
 
 #Preview {
     viewList()
