@@ -20,14 +20,17 @@ struct ContentView: View {
                                    .background(Color.blue)
                                    .foregroundColor(.white)
                                    .cornerRadius(7)
+                               
                            }
                        )
                        .padding()
-                   }
-                   .navigationTitle("Main Menu")
+                     
+                       
+                   }.navigationTitle("Main Menu")
                }
            }
        }
+
 
 
 #Preview {

@@ -13,6 +13,13 @@
 		F44216D42B3A01B000CC4256 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44216D32B3A01B000CC4256 /* Preview Assets.xcassets */; };
 		F44216DB2B3A01E900CC4256 /* userList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44216DA2B3A01E900CC4256 /* userList.swift */; };
 		F44216DD2B3A067400CC4256 /* viewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44216DC2B3A067400CC4256 /* viewList.swift */; };
+		F44216DF2B3AECF400CC4256 /* dataSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44216DE2B3AECF300CC4256 /* dataSwiftUIView.swift */; };
+		F4D3DCEF2B3B2EEA00A99D26 /* firstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3DCEE2B3B2EEA00A99D26 /* firstView.swift */; };
+		F4D3DCF12B3B2EF600A99D26 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3DCF02B3B2EF600A99D26 /* secondView.swift */; };
+		F4D3DCF32B3B324600A99D26 /* toDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3DCF22B3B324600A99D26 /* toDoModel.swift */; };
+		F4D3DCF52B3B33EC00A99D26 /* toDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3DCF42B3B33EC00A99D26 /* toDoList.swift */; };
+		F4D3DCF72B3B359200A99D26 /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3DCF62B3B359200A99D26 /* detailView.swift */; };
+		F4D3DCF92B3B39DD00A99D26 /* doneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3DCF82B3B39DD00A99D26 /* doneButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,13 @@
 		F44216D32B3A01B000CC4256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F44216DA2B3A01E900CC4256 /* userList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userList.swift; sourceTree = "<group>"; };
 		F44216DC2B3A067400CC4256 /* viewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewList.swift; sourceTree = "<group>"; };
+		F44216DE2B3AECF300CC4256 /* dataSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataSwiftUIView.swift; sourceTree = "<group>"; };
+		F4D3DCEE2B3B2EEA00A99D26 /* firstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstView.swift; sourceTree = "<group>"; };
+		F4D3DCF02B3B2EF600A99D26 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
+		F4D3DCF22B3B324600A99D26 /* toDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoModel.swift; sourceTree = "<group>"; };
+		F4D3DCF42B3B33EC00A99D26 /* toDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoList.swift; sourceTree = "<group>"; };
+		F4D3DCF62B3B359200A99D26 /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
+		F4D3DCF82B3B39DD00A99D26 /* doneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doneButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +69,19 @@
 		F44216CB2B3A01AE00CC4256 /* HelloSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F44216D02B3A01B000CC4256 /* Assets.xcassets */,
 				F44216D22B3A01B000CC4256 /* Preview Content */,
 				F44216CC2B3A01AE00CC4256 /* HelloSwiftUIApp.swift */,
 				F44216CE2B3A01AE00CC4256 /* ContentView.swift */,
 				F44216DA2B3A01E900CC4256 /* userList.swift */,
 				F44216DC2B3A067400CC4256 /* viewList.swift */,
-				F44216D02B3A01B000CC4256 /* Assets.xcassets */,
+				F44216DE2B3AECF300CC4256 /* dataSwiftUIView.swift */,
+				F4D3DCEE2B3B2EEA00A99D26 /* firstView.swift */,
+				F4D3DCF02B3B2EF600A99D26 /* secondView.swift */,
+				F4D3DCF22B3B324600A99D26 /* toDoModel.swift */,
+				F4D3DCF42B3B33EC00A99D26 /* toDoList.swift */,
+				F4D3DCF62B3B359200A99D26 /* detailView.swift */,
+				F4D3DCF82B3B39DD00A99D26 /* doneButton.swift */,
 			);
 			path = HelloSwiftUI;
 			sourceTree = "<group>";
@@ -143,10 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D3DCF92B3B39DD00A99D26 /* doneButton.swift in Sources */,
 				F44216DD2B3A067400CC4256 /* viewList.swift in Sources */,
+				F4D3DCEF2B3B2EEA00A99D26 /* firstView.swift in Sources */,
+				F4D3DCF52B3B33EC00A99D26 /* toDoList.swift in Sources */,
 				F44216DB2B3A01E900CC4256 /* userList.swift in Sources */,
 				F44216CF2B3A01AE00CC4256 /* ContentView.swift in Sources */,
+				F4D3DCF12B3B2EF600A99D26 /* secondView.swift in Sources */,
 				F44216CD2B3A01AE00CC4256 /* HelloSwiftUIApp.swift in Sources */,
+				F44216DF2B3AECF400CC4256 /* dataSwiftUIView.swift in Sources */,
+				F4D3DCF32B3B324600A99D26 /* toDoModel.swift in Sources */,
+				F4D3DCF72B3B359200A99D26 /* detailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
